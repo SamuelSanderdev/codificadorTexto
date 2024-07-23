@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+        <section>
+            <div class="container">
+                <div class="container__content__1">
+                    <h1 class="title__container_1">Decodificador de texto</h1>
+                    <textarea class="textArea__container__1" id="inputText" placeholder="Digite aqui seu texto..."></textarea>
+                </div>
+                
+            </section>
+                <div class="container__text">
+                    <p class="conteudo__container">Apenas letras minúsculas e sem acento</p>
+                    <h2 class="container__title__outputArea">Nenhuma mensagem encontrada </h2>
+                    <p class="container__text__p">Digite um texto que você deseja criptografar ou desincriptografar</p>
+                </div>
+
+                <div class="buttons">
+                    <button class="buttons__filhos" onclick="encodeText()">Codificar</button>
+                    <button class="buttons__filhos" onclick="decodeText()">Decodificar</button>
+
+                </div>
+                <div class="container__retangulo">
+                    <div class="retangulo">
+                        <textarea class="retangulo__outPut" id="outputText" readonly placeholder="Texto codificado/decodificado aparecerá aqui..."></textarea>
+                        <button  class="buttons__filhos__retangulo" onclick="copyText()">Copiar</button>
+                    </div>
+                </div>
+                
+            </div>
+        
+            
+              
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
